@@ -14,4 +14,5 @@ def test():
     print("print test")
     return test
     
-test()
+
+foto()
