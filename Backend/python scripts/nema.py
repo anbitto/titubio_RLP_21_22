@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 # import the library
 from RpiMotorLib import RpiMotorLib
     
-def moveNema(cm):
+def moveNema(cm, clockwise=False):
     cms_vuelta = 3,77
     steps_vuelta = 200
 
@@ -18,7 +18,7 @@ def moveNema(cm):
     total_steps = (cm * steps_vuelta) / cms_vuelta
 
     # call the function, pass the arguments
-    mymotortest.motor_go(False, "Full" , total_steps, .01, False, .05)
+    mymotortest.motor_go(clockwise, "Full", total_steps, .01, False, .05)
 
     # good practise to cleanup GPIO at some point before exit
     GPIO.cleanup()
