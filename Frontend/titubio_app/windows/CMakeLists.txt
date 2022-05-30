@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(titubio_app LANGUAGES CXX)
+project(sm_app_invidente LANGUAGES CXX)
 
-set(BINARY_NAME "titubio_app")
+set(BINARY_NAME "sm_app_invidente")
 
 cmake_policy(SET CMP0063 NEW)
 
