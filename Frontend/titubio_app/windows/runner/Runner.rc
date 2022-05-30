@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "titubio_app" "\0"
+            VALUE "FileDescription", "sm_app_invidente" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "titubio_app" "\0"
+            VALUE "InternalName", "sm_app_invidente" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "titubio_app.exe" "\0"
-            VALUE "ProductName", "titubio_app" "\0"
+            VALUE "OriginalFilename", "sm_app_invidente.exe" "\0"
+            VALUE "ProductName", "sm_app_invidente" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

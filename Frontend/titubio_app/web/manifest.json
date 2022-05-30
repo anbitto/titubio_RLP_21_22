@@ -1,6 +1,6 @@
 {
-    "name": "titubio_app",
-    "short_name": "titubio_app",
+    "name": "sm_app_invidente",
+    "short_name": "sm_app_invidente",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
