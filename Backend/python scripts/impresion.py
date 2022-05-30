@@ -5,65 +5,35 @@ import text_parser_v2
 import stepper_28BYJ_48
 import nema
 
-pin_end_of_travel = 10
+END_OF_TRAVEL_SWITCH_PIN = 10
+DISTANCE_BETWEEN_DOTS = 0.5 # in cm
 
-# Mueve el cabezal hasta cerrar el circuito
-# del end-of-travel switch
+# Mueve el cabezal hasta cerrar el circuito del end-of-travel switch
 def cabezal_go_home():
-    while True:  # Run forever
-        if GPIO.input(pin_end_of_travel) == GPIO.HIGH:
-            print("Button was pushed!")
-
-
-# Mueve el cabezal hasta cerrar el circuito
-# del end-of-travel switch
-def toggle_solenoid():
-    solenoid.solenoid_low()
-
+    not_pulsed = True
+    while not_pulsed:  # Run forever
+        move_cabezal()
+        if GPIO.input(END_OF_TRAVEL_SWITCH_PIN) == GPIO.HIGH:
+            not_pulsed = False
 
 # Fuerza que el solenoide se retraiga
 def solenoid_up():
     solenoid.solenoid_high()
 
-
 # Fuerza que el solenoide se extienda
 def solenoid_down():
     solenoid.solenoid_low()
 
+def move_cabezal(distance=DISTANCE_BETWEEN_DOTS, inverted=False):
+    nema.moveNema(distance, inverted)
 
-def cabezal_next_char():
-    nema.moveNema(3)
-    pass
-
-
-def cabezal_move_in_char(inverted=False):
-    nema.moveNema(3)
-    pass
-
-
-def cabezal_move_between_chars(inverted=False):
-    nema.moveNema(3)
-
-
-def load_paper():
-    stepper_28BYJ_48.moveStepper(3)
-
+def move_paper():
+    stepper_28BYJ_48.move_next_line()
 
 def print_ltr(braille_line):
-    char_spacing_aux = 0
     for dot in braille_line:
+        move_cabezal()
 
-        # controlar espacios entre caracteres
-        if char_spacing_aux == 2:  # puede que esto sea un 1 pero para qué pensar cuando se puede probar?
-            char_spacing_aux = 0
-            cabezal_move_between_chars()
-            time.sleep(0.2)
-        else:
-            char_spacing_aux += 1
-            cabezal_move_in_char()
-            time.sleep(0.2)
-
-        # si es un punto, se activa el solenoide
         if dot == 1:
             solenoid_down()
             time.sleep(0.2)
@@ -72,25 +42,15 @@ def print_ltr(braille_line):
 
 
 def print_rtl(braille_line):
-    char_spacing_aux = 0
     for dot in braille_line:
+        move_cabezal(inverted=True)
 
-        # controlar espacios entre caracteres
-        if char_spacing_aux == 2:  # puede que esto sea un 1 pero para qué pensar cuando se puede probar?
-            char_spacing_aux = 0
-            cabezal_move_between_chars(True)
-            time.sleep(0.2)
-        else:
-            char_spacing_aux += 1
-            cabezal_move_in_char(True)
-            time.sleep(0.2)
-
-        # si es un punto, se activa el solenoide
         if dot == 1:
             solenoid_down()
             time.sleep(0.2)
             solenoid_up()
             time.sleep(0.2)
+
 
 # def main_printing_proces():
 
