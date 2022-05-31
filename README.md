@@ -1,4 +1,5 @@
 # TITUBIO 
+![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## RLP_21/22
 Grupo 10: Lola Barberan Baeta, Marc Benitez Benavides, Andrés Bitto Castro, Noel Carrasco García y Isabel Castañeda Malqui
 ## Funcionalidad
