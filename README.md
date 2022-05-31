@@ -2,7 +2,7 @@
 ## RLP_21/22
 Grupo 10: Lola Barberan Baeta, Marc Benitez Benavides, Andrés Bitto Castro, Noel Carrasco García y Isabel Castañeda Malqui
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/J3ljxwpzk9o/0.jpg)](http://www.youtube.com/watch?v=J3ljxwpzk9o
+[![image alt text](http://img.youtube.com/vi/J3ljxwpzk9o/0.jpg)](http://www.youtube.com/watch?v=J3ljxwpzk9o)
 
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## Funcionalidad
