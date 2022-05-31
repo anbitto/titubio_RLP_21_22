@@ -1,6 +1,9 @@
 # TITUBIO 
 ## RLP_21/22
 Grupo 10: Lola Barberan Baeta, Marc Benitez Benavides, Andrés Bitto Castro, Noel Carrasco García y Isabel Castañeda Malqui
+
+
+![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## Funcionalidad
 Robot capaz de identificar texto y escribir la traducción correspondiente en braille.
 ## Repositorios
@@ -8,8 +11,6 @@ Existen dos repositorio distintos de GitHub, uno en el que se ha desarrollado el
 La parte de frontend se ha hecho para la asignatura SM y el backend para RLP. A continuación los links:
 - FrontEnd: https://github.com/anbitto/SM_app_invidentes
 - BackEnd: https://github.com/anbitto/titubio_RLP_21_22
-
-![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## Componentes
 - MOTOR PASO A PASO (NEMA17)  
 - Raspberry Pi 4B 4GB (RPI4-MODBP-4GB)  
