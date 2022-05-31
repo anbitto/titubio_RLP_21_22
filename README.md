@@ -22,6 +22,9 @@ La parte de frontend se ha hecho para la asignatura SM y el backend para RLP. A 
 - Polea GT2 - 20 die  
 - Transistor de Unión Bipolar Único, NPN, 60 V, 5 A, 65 W, TO-220, Orificio        
 - Pasante  
+## Necesario
+- Tener un móvil android con versión 9.0 o superior
+- Tener una toma de corriente 
 ## Esquema de Hardware
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/hardware.png)
 ## Arquitectura del software
