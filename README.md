@@ -23,4 +23,18 @@ La parte de frontend se ha hecho para la asignatura SM y el backend para RLP. A 
 - Transistor de Unión Bipolar Único, NPN, 60 V, 5 A, 65 W, TO-220, Orificio        
 - Pasante  
 ## Esquema de Hardware
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/hardware.png)
+## Arquitectura del software
+![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/software.png)
+## Amazing contributions 
+La inclusión de un sistema para detectar texto en una hoja de papel y convertirla en un documento en braille mediante una cámara integrada.
+El control de las funcionalidades del robot mediante una aplicación móvil que se encuentre adaptada a personas invidentes y, a su vez, permita al resto de personas tener una herramienta con la que poder comunicarse con ellas de forma más sencilla.
+Consideramos que cumplimos todos los objetivos al conseguir lo siguiente:
+-	Adaptar la aplicación para personas invidentes
+-	Haber desarrollado una aplicación que rinda correctamente y ofrezca una experiencia de usuario competente
+-	Conseguir diseñar un robot que lleve a cabo la funcionalidad de impresión de forma rápida y cómoda para su uso rutinario
+-	Implementar un sistema de preview del resultado de impresión que sea fiable
+-	Imprimir texto en braille de forma consistente
+-	Implementar satisfactoriamente la interpretación de texto a partir de imágenes
+-	Implementar satisfactoriamente el reconocimiento de palabras a partir de audio
+
