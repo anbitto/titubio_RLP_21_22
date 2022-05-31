@@ -8,6 +8,7 @@ Existen dos repositorio distintos de GitHub, uno en el que se ha desarrollado el
 La parte de frontend se ha hecho para la asignatura SM y el backend para RLP. A continuación los links:
 - FrontEnd: https://github.com/anbitto/SM_app_invidentes
 - BackEnd: https://github.com/anbitto/titubio_RLP_21_22
+
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## Componentes
 - MOTOR PASO A PASO (NEMA17)  
