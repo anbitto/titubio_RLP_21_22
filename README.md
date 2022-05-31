@@ -29,6 +29,8 @@ La parte de frontend se ha hecho para la asignatura SM y el backend para RLP. A 
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/hardware.png)
 ## Arquitectura del software
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/software.png)
+## Arquitectura de los componentes
+![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/arquitectura_componentes.drawio.png)
 ## Amazing contributions 
 La inclusión de un sistema para detectar texto en una hoja de papel y convertirla en un documento en braille mediante una cámara integrada.
 El control de las funcionalidades del robot mediante una aplicación móvil que se encuentre adaptada a personas invidentes y, a su vez, permita al resto de personas tener una herramienta con la que poder comunicarse con ellas de forma más sencilla.
