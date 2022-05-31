@@ -2,6 +2,7 @@
 ## RLP_21/22
 Grupo 10: Lola Barberan Baeta, Marc Benitez Benavides, Andrés Bitto Castro, Noel Carrasco García y Isabel Castañeda Malqui
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/J3ljxwpzk9o/0.jpg)](http://www.youtube.com/watch?v=J3ljxwpzk9o
 
 ![alt text](https://github.com/anbitto/titubio_RLP_21_22/blob/main/titubio.jpg)
 ## Funcionalidad
@@ -45,4 +46,11 @@ Consideramos que cumplimos todos los objetivos al conseguir lo siguiente:
 -	Imprimir texto en braille de forma consistente
 -	Implementar satisfactoriamente la interpretación de texto a partir de imágenes
 -	Implementar satisfactoriamente el reconocimiento de palabras a partir de audio
-
+## Bibliografia y enlaces relacionados con el proyectos
+- https://www.instructables.com/Simple-Braille-Writer-Speech-to-Braille/
+- https://construyendoachispas.blog/2017/07/26/lenguaje-separar-palabras-en-silabas/
+- https://evolventdesign.com/pages/spur-gear-generator
+- https://github.com/nicofrem/silabajs
+- https://www.tinkercad.com/
+- https://www.separarensilabas.com/index.php
+- https://hmong.es/wiki/IPA_Braille
